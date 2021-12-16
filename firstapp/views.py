@@ -13,3 +13,4 @@ from django.http import HttpResponse
 def wish(request): 
     return render(request,'firstapp/wish.html')
     print("hello")
+    print('hiii')
