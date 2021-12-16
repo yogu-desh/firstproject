@@ -12,3 +12,4 @@ from django.http import HttpResponse
 #     return HttpResponse('<h1>Hello Friends Good Morning...Have a Nice Day</h1')
 def wish(request): 
     return render(request,'firstapp/wish.html')
+    print("hello")
